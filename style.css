@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 500;}
 
 .header {
 	background:url('bgc.png')  no-repeat;
-	background-size:  100% 900px;
+
 	overflow: hidden;
 	flex: 1 1 auto;
 }
@@ -477,4 +477,32 @@ padding: 0 10px;
 	form{
 		padding: 10px;
 	}
+}
+@media (max-width: 500px) {
+	.header__line {
+		display:flex;
+		justify-content: center;
+		margin: 430px 0 145px 0 ;
+		
+		}
+		.header__link-button{
+		padding: 10px 13px;
+		}
+		.hero__row{
+			padding: 50px 0 0 0 ;
+
+		}
+		.collection{
+			padding: 40px 0;
+		}
+		.collection__row{
+			padding: 0;
+		}
+		.reg {
+			padding: 40px 0 50px 0;
+		
+	  }
+	  .footer__btn{
+		font-size: 8px;
+	  }
 }
